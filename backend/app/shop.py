@@ -10,13 +10,15 @@ def get_shop():
             "name": "Galaxy Scout",
             "imageUrl": "https://example.com/galaxy.png",
             "price": 2000,
-            "isNew": True
+            "isNew": True,
+            "rarity": "legendary"
         },
         {
             "id": "skin_002",
             "name": "Peely",
             "imageUrl": "https://example.com/peely.png",
             "price": 1200,
-            "isNew": False
+            "isNew": False,
+            "rarity": "rare"
         }
     ]

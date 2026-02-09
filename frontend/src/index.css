@@ -1,0 +1,24 @@
+/* Global dark theme */
+body {
+  margin: 0;
+  padding: 0;
+  background: #0d0d0d;
+  color: #ffffff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Make images smoother */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Remove default padding from root */
+#root {
+  padding: 20px;
+}
+
+/* Optional: smooth transitions globally */
+* {
+  transition: 0.15s ease;
+}
